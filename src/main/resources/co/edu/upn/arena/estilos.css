@@ -1,0 +1,194 @@
+.root {
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+    -fx-font-size: 13px;
+    -fx-background-color: #0b0a0a;
+}
+
+.menu {
+    -fx-background-color: rgba(12, 11, 11, 0.96);
+    -fx-padding: 20 14 20 14;
+    -fx-spacing: 10;
+    -fx-pref-width: 215;
+    -fx-border-color: #381816;
+    -fx-border-width: 0 2 0 0;
+}
+
+.logo {
+    -fx-text-fill: #c9261e;
+    -fx-font-size: 23px;
+    -fx-font-weight: bold;
+}
+
+.sublogo {
+    -fx-text-fill: #857f7d;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 14 0;
+    -fx-border-color: #2b2828;
+    -fx-border-width: 0 0 1 0;
+}
+
+.menu .button {
+    -fx-background-color: #181616;
+    -fx-text-fill: #d6d0ce;
+    -fx-alignment: CENTER_LEFT;
+    -fx-pref-width: 185;
+    -fx-padding: 10 12 10 14;
+    -fx-background-radius: 2;
+    -fx-border-color: #4a1916;
+    -fx-border-width: 0 0 0 3;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.menu .button:hover {
+    -fx-background-color: #241d1c;
+    -fx-border-color: #c9261e;
+    -fx-text-fill: #ffffff;
+}
+
+.menu .button:pressed {
+    -fx-background-color: #6e1510;
+}
+
+.pagina {
+    -fx-background-color: #0d0c0c;
+    -fx-background-image: url("fondo_gears.jpg.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-padding: 24;
+    -fx-spacing: 14;
+}
+
+.titulo {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e8e4e3;
+    -fx-effect: dropshadow(gaussian, #000000, 10, 0.95, 0, 2);
+}
+
+.subtitulo {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #c93830;
+}
+
+.tarjeta {
+    -fx-background-color: rgba(16, 15, 15, 0.90);
+    -fx-padding: 16;
+    -fx-background-radius: 3;
+    -fx-border-color: #3b2625;
+    -fx-border-radius: 3;
+    -fx-border-width: 1;
+}
+
+.label {
+    -fx-text-fill: #cfc9c7;
+}
+
+.button {
+    -fx-background-color: #222020;
+    -fx-text-fill: #dedad9;
+    -fx-border-color: #453d3d;
+    -fx-border-radius: 2;
+    -fx-background-radius: 2;
+    -fx-padding: 8 14 8 14;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #302c2c;
+    -fx-border-color: #9e221b;
+}
+
+.text-field, .combo-box, .date-picker {
+    -fx-background-color: rgba(11, 10, 10, 0.94);
+    -fx-text-fill: #f0eceb;
+    -fx-prompt-text-fill: #787270;
+    -fx-border-color: #3d3636;
+    -fx-border-radius: 2;
+    -fx-background-radius: 2;
+    -fx-padding: 6 10 6 10;
+}
+
+.text-field:focused, .combo-box:focused, .date-picker:focused {
+    -fx-border-color: #b5241c;
+}
+
+.date-picker .text-field {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #171616;
+    -fx-text-fill: #e6e1e0;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #7d1913;
+}
+
+.boton-principal {
+    -fx-background-color: #961d16;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #bf281f;
+    -fx-font-weight: bold;
+    -fx-padding: 8 16 8 16;
+    -fx-background-radius: 2;
+    -fx-cursor: hand;
+}
+
+.boton-principal:hover {
+    -fx-background-color: #b8251c;
+}
+
+.boton-peligro {
+    -fx-background-color: #2b1514;
+    -fx-text-fill: #e0b4b1;
+    -fx-border-color: #6b1d19;
+    -fx-border-radius: 2;
+    -fx-padding: 8 16 8 16;
+    -fx-background-radius: 2;
+    -fx-cursor: hand;
+}
+
+.boton-peligro:hover {
+    -fx-background-color: #451c1a;
+    -fx-border-color: #a8241d;
+}
+
+.table-view, .list-view {
+    -fx-background-color: rgba(15, 14, 14, 0.92);
+    -fx-border-color: #3b2625;
+    -fx-control-inner-background: rgba(15, 14, 14, 0.90);
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #121111;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: #121111;
+    -fx-border-color: #362928;
+    -fx-border-width: 0 1 2 0;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #d4352c;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: rgba(24, 22, 22, 0.88);
+}
+
+.table-row-cell:even {
+    -fx-background-color: rgba(16, 15, 15, 0.88);
+}
+
+.table-row-cell:selected, .list-cell:selected {
+    -fx-background-color: #7d1913;
+    -fx-text-fill: #ffffff;
+}
